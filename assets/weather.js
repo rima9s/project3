@@ -5,8 +5,8 @@ getWeather(timeMillis, zone) {
 },
 
 calculateForecastTarget: function(timeMillis) {
-    // Thanks to Rogueadyn's SaintCoinach library for this calculation.
-    // lDate is the current local time.
+    // Credit to Rogueadyn's SaintCoinach library for the formula
+    // keep the same variable names
 
     var unixSeconds = parseInt(timeMillis / 1000);
     // Get Eorzea hour for weather start
